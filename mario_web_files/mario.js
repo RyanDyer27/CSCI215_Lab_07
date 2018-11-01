@@ -56,7 +56,10 @@ function draw() {
 	/*
 	 * TODO: Draw Mario's initial image
 	 */
-
+	mario.onload = function(){
+		ctx.drawImage(mario, 0, 0);
+	
+	} 
 
 	/////////////////////////////////////////////////////////////////
 	var render = function () {
